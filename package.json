@@ -1,0 +1,27 @@
+{
+  "name": "knex-crud-with-joins",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec npm-run babel-node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-es2017": "^6.16.0",
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.1",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.0",
+    "express-promise-router": "^1.1.1",
+    "jsonwebtoken": "^7.2.1",
+    "knex": "^0.12.6",
+    "mysql": "^2.12.0",
+    "vash": "^0.12.2"
+  }
+}
