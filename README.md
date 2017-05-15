@@ -15,7 +15,7 @@ Next create a .env file in the root directory. The .env file should look like th
 ```
 This project is built against a mysql database.
 
-To run the migrations and get the tables set up run the following command: `npm run latest`. NOTE: The db itself should be
+To run the migrations and get the tables set up, run the following command: `npm run latest`. NOTE: The db itself should be
 created prior to running this command. This command only structures the tables for the db. 
 
 Finally you can run the app with `npm start`.
